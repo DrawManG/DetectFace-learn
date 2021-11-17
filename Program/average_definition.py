@@ -1,6 +1,6 @@
 
 from Info_Base.informers import name_noBase_people as namer_noname,message_telegram
-def average_definition(name,anti_double_message):
+def average_definition(name):
     import telegram_send
     '''
 
@@ -18,9 +18,9 @@ def average_definition(name,anti_double_message):
 
     except:
         realistically_possible = namer_noname
-    if not realistically_possible == namer_noname and anti_double_message == 0:
+    if not realistically_possible == namer_noname:
         telegram_send.send(messages=[message_telegram + realistically_possible])
-        anti_double_message = 1
-    else: anti_double_message -=1
+
+
     a = []
-    return a,anti_double_message
+    return a
