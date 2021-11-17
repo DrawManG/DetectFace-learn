@@ -1,13 +1,14 @@
 #!/bin/bash
-Debug files
-Info_Base
-Interface
-knn
-Old_project
-PictureExample
-__pycache__
-StartProgram
-venv
-VideoExample
+Debug files/
+Info_Base/
+Interface/
+knn/
+Old_project/
+PictureExample/
+__pycache__/
+StartProgram/
+venv/
+VideoExample/
 Comic_CAT.otf
-Program/__pycache__
+Program/__pycache__/
+.idea/
