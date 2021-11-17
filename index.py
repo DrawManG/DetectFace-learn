@@ -19,6 +19,7 @@ from Program.start_script_with_timer import start_script_with_timer
 from Program.Train import train
 from io import StringIO
 import sys
+import os
 
 
 class Thread(QThread):
@@ -194,7 +195,6 @@ class Example(QWidget):
         self.button_Start.setDisabled(False)
 
     def btn_openfolder(self):
-        import os
         os.listdir(path_project +"/"+ path_train3)
 
 

@@ -1,7 +1,8 @@
 
 from Info_Base.informers import name_noBase_people as namer_noname,message_telegram
+import telegram_send
 def average_definition(name):
-    import telegram_send
+
     '''
 
     ANTI_DOUBLE RELEASE DELETE
